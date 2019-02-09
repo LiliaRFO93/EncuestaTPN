@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EncuestaTPN</string>
+    <string name="m_action_about">Acerca de</string>
+    <string name="m_action_settings">Configuracion</string>
+    <string name="m_action_exit">Salir</string>
+    <string name="input_user">Usuario</string>
+    <string name="input_password">Contraseña</string>
+    <string name="btn_login">Iniciar Sesion</string>
+    <string name="txt_1">Tu opinión nos importa</string>
+    <string name="txt_2">Contesta las siguientes preguntas sobre el servcio recibido</string>
+    <string name="btn_start">Iniciar Encuesta</string>
+    <string name="txt_start">Encuesta de Satisfaccion</string>
+    <string name="txt_question1">1. ¿Como considera que fue el trat recibido?</string>
+    <string name="txt_question2">2. ¿Nos recomendaria con algun conocido?</string>
+    <string name="txt_question3">3. ¿Desearia agregar comentarios adicionales?</string>
+    <string name="txt_answer1">Si</string>
+    <string name="txt_answer2">No</string>
+    <string name="btn_send">Enviar</string>
+    <string name="txt_t1">¡Gracias!</string>
+    <string name="txt_t2">Tomaremos en cuenta tu opinion</string>
+    <string name="btn_close">Cerrar</string>
+    <string name="txt_i1">Acerca de</string>
+    <string name="txt_i2">Tabacos del Pacifico Norte (TPN)</string>
+    <string name="txt_i3">Tabacos del Pacifico Norte es una compañoa americana con oficinas en Mexico,
+                          dedicada a la compra de tabaco</string>
+    <string name="txt_i4">Desarrollador: Lilia Rosa Flores Olvera</string>
+    <string name="txt_i5">Email: floresli@univmex.com</string>
+    <string name="txt_i6">Telefono: 311-765-3540</string>
+    <string name="txt_i7">Version: 1.0</string>
+    <string name="txt_i8">¡GRACIAS POR USAR NUESTRA APP!</string>
+</resources>

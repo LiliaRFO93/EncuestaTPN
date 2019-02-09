@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SatisfactionActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="top"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/twospace"
+            android:padding="@dimen/onespace"
+            android:text="@string/txt_start"
+            android:textSize="@dimen/twospace" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/d_15"
+            android:layout_marginBottom="@dimen/d_5"
+            android:padding="@dimen/d_15"
+            android:text="@string/txt_question1" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/d_25"
+            android:layout_marginBottom="@dimen/d_5"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/d_15"
+            android:layout_marginBottom="@dimen/d_5"
+            android:layout_marginTop="@dimen/onespace"
+            android:padding="@dimen/d_15"
+            android:text="@string/txt_question2" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/d_15"
+            android:layout_marginBottom="@dimen/d_5"
+            android:layout_marginTop="@dimen/d_5"
+            android:padding="@dimen/onespace"
+            android:orientation="horizontal"
+            >
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_answer1"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_answer2"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/d_15"
+            android:layout_marginBottom="@dimen/d_5"
+            android:layout_marginTop="@dimen/d_5"
+            android:padding="@dimen/d_15"
+            android:text="@string/txt_question3"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textImeMultiLine"
+            android:padding="@dimen/threespace"
+            android:maxLines="5"
+            android:gravity="top|left"
+            android:layout_marginLeft="@dimen/d_25"
+            android:layout_marginBottom="@dimen/d_5"/>
+
+        <Button
+            android:id="@+id/btn_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/d_15"
+            android:text="@string/btn_send"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/threespace"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

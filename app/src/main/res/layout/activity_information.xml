@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InformationActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top"
+            android:orientation="vertical"
+            android:baselineAligned="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/twospace"
+                android:padding="@dimen/onespace"
+                android:text="@string/txt_i1"
+                android:textSize="@dimen/threespace"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/d_15"
+                android:padding="@dimen/d_5"
+                android:textSize="@dimen/twospace"
+                android:text="@string/txt_i2" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/d_15"
+                android:layout_marginBottom="@dimen/d_5"
+                android:padding="@dimen/d_15"
+                android:textSize="@dimen/twospace"
+                android:text="@string/txt_i3" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/d_15"
+                android:layout_marginBottom="@dimen/d_5"
+                android:layout_marginTop="@dimen/threespace"
+                android:textSize="@dimen/d_15"
+                android:text="@string/txt_i4" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/d_15"
+                android:layout_marginBottom="@dimen/d_5"
+                android:textSize="@dimen/d_15"
+                android:text="@string/txt_i5" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/d_15"
+                android:layout_marginBottom="@dimen/d_5"
+                android:textSize="@dimen/d_15"
+                android:text="@string/txt_i6" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/d_15"
+                android:textSize="@dimen/d_15"
+                android:layout_marginBottom="@dimen/d_5"
+                android:text="@string/txt_i7" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="bottom|center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_i8"
+                android:textAlignment="center"
+                android:textSize="@dimen/twospace"
+                android:layout_marginBottom="@dimen/threespace"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
